@@ -32,8 +32,8 @@ This course offers a 14-day deep dive into Machine Learning (ML) and Explainable
 
 Each chapter includes:
 
-* 🎓 Lecture slides (`day_##_slide.pptx`)
-* 💻 Pair programming notebook (`day_##_pair_programming.ipynb`)
+* 🎓 Lecture slides (`day_slide.pptx`)
+* 💻 Pair programming notebook (`day_pair_programming.ipynb`)
 * 📘 Local `README.md` with setup notes, objectives, and command references
 
 | Folder                                   | Contents                                                                                |
@@ -80,4 +80,4 @@ git clone https://github.com/happymondaynkanta/CDUT-2025-Summer-School-Smart-Ene
 cd CDUT-2025-Summer-School-Smart-Energy/chapter_01_environment_setup
 
 # Follow chapter-specific instructions in each README.md
-```
+
