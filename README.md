@@ -32,7 +32,8 @@ This course offers a 14-day deep dive into Machine Learning (ML) and Explainable
 
 Each chapter includes:
 
-* 🎓 Lecture slides (`day_slide.pptx`)
+* 🎓 Lecture slides (`chapter_.pptx`)
+* 🎓 Seminar slides (`day_slide.pptx`)
 * 💻 Pair programming notebook (`day_pair_programming.ipynb`)
 * 📘 Local `README.md` with setup notes, objectives, and command references
 
