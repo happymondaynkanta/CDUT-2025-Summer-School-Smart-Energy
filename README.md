@@ -7,9 +7,10 @@ Welcome to the official repository for the **CDUT AI Summer School – Smart Ene
 
 ## 👩‍🏫 Instructors
 
-- **Dr. Grace Ugochi Nneji**  
 - **Dr. Happy Nkanta Monday**  
-*Associate Professors, Chengdu University of Technology (Oxford Brookes College)*  
+- **Dr. Grace Ugochi Nneji**  
+
+*Associate Professors, Chengdu University of Technology-Oxford Brookes College*  
 📍 Chengdu, China
 
 ---
@@ -25,23 +26,34 @@ This course offers a 14-day deep dive into Machine Learning (ML) and Explainable
 
 ---
 
-## 📂 Folder Structure
+---
 
-Each chapter contains:
-
-| Folder | Contents |
-|--------|----------|
-| `chapter_01_environment_setup/` | Python installation, environment setup, package management |
-| `chapter_02_exploratory_data_analysis/` | EDA with pandas, matplotlib, outlier handling |
-| `chapter_03_feature_engineering/` | Time-based features, scaling, lag & rolling stats |
-| `chapter_04_baseline_models/` | OLS, Random Forest regressors, model metrics |
-| ... | ... |
-| `chapter_14_deployment_and_demo_day/` | Streamlit Cloud deployment, final presentations |
+### 📂 Folder Structure
 
 Each chapter includes:
-- 🎓 PowerPoint slides (`day_##_slide.pptx`)
-- 💻 Pair programming notebook (`day_##_pair_programming.ipynb`)
-- 📘 A localized `README.md` with learning goals and quick setup tips
+
+* 🎓 Lecture slides (`day_##_slide.pptx`)
+* 💻 Pair programming notebook (`day_##_pair_programming.ipynb`)
+* 📘 Local `README.md` with setup notes, objectives, and command references
+
+| Folder                                   | Contents                                                                                |
+| ---------------------------------------- | --------------------------------------------------------------------------------------- |
+| `chapter_01_environment_setup/`          | Python installation, virtual environments, package management                           |
+| `chapter_02_exploratory_data_analysis/`  | EDA with pandas, datetime parsing, outlier & missing data handling                      |
+| `chapter_03_feature_engineering/`        | Time-based features, cyclical encoding, lag & rolling stats, scaling                    |
+| `chapter_04_baseline_models/`            | OLS and Random Forest regression, model metrics (MAE, RMSE, R²), scatter/residual plots |
+| `chapter_05_xgboost_modeling/`           | Gradient boosting, XGBoost with cross-validation, learning curves, model saving         |
+| `chapter_06_explainable_ai_shap/`        | SHAP theory, beeswarm & waterfall plots, local/global explainability                    |
+| `chapter_07_streamlit_fundamentals/`     | UI components, layouts, session state, sidebar controls                                 |
+| `chapter_08_prediction_ui/`              | Modular UI design, metrics display with `st.metric()`, user input validation            |
+| `chapter_09_supabase_authentication/`    | Email login/registration, session handling, role-based access                           |
+| `chapter_10_energy_simulation_ui/`       | What-if simulation sliders, voltage reduction impact, live metrics                      |
+| `chapter_11_logging_and_storage/`        | Logging predictions to Supabase, saving session data                                    |
+| `chapter_12_model_evaluation_dashboard/` | Visual diagnostics (residuals, feature importances), evaluation report                  |
+| `chapter_13_smart_recommendations/`      | Alert systems (high voltage, peak hours), actionable usage tips                         |
+| `chapter_14_deployment_and_demo_day/`    | Final Streamlit deployment, GitHub project submission, capstone showcase                |
+
+---
 
 ---
 
@@ -64,7 +76,7 @@ Each chapter includes:
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/ml-essentials-smart-energy-ai.git
-cd ml-essentials-smart-energy-ai/chapter_01_environment_setup
+git clone https://github.com/happymondaynkanta/CDUT-2025-Summer-School-Smart-Energy.git
+cd CDUT-2025-Summer-School-Smart-Energy/chapter_01_environment_setup
 
 # Follow chapter-specific instructions in each README.md
