@@ -78,7 +78,5 @@ Each chapter includes:
 ```bash
 # Clone the repo
 git clone https://github.com/happymondaynkanta/CDUT-2025-Summer-School-Smart-Energy.git
-cd CDUT-2025-Summer-School-Smart-Energy/chapter_01_environment_setup
 
-# Follow chapter-specific instructions in each README.md
 
